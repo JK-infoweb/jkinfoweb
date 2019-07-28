@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JK Infoweb</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!--css styles starts-->
+    
+
+    
+    
+<link rel="shortcut icon" type="image/x-icon" href="http://jkinfoweb.com/favicon.ico">
+    
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/css-animation.css">
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/slick.css">
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/style.css">
+<link rel="stylesheet" type="text/css" href="http://jkinfoweb.com/css/responsive.css">
+<!--css styles ends-->
+
+<!--google/webkitt fonts embeddeds here-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+<!--google/webkitt fonts embeddeds here-->
+
+<!--script  starts-->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+        <![endif]-->
+<!--script  ends-->
+
+<!--common jquery starts-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+<script src="http://jkinfoweb.com/js/jquery.min.js"></script>
+<!--common jquery end-->
+    
+    <style type="text/css">
+        html,body{height: 100%;}
+        .page-bg.top{background: url(http://jkinfoweb.com/images/bg.png);background-size: cover;background-position: right 30%;background-repeat: repeat;height: 100%;}
+        .page-bg.bottom{background: url(http://jkinfoweb.com/images/shipsea.png);background-size: contain;background-position: bottom left;background-repeat: no-repeat;height: 645px;position: absolute;left: 0;bottom: 0;right: 0;}
+        .page-content{position: relative;z-index: 999;}
+        .err-404 img{margin: auto;}
+        .err-404 h1{font-size: 35px; font-weight: 400; margin-top: 30px;}
+        .home-contact-btn{margin-top: 5%;}
+        .home-contact-btn li{margin-right: 15px; display: inline-block;}
+        .home-contact-btn li:last-of-type{margin: 0;}
+        .li-button{ min-width: 250px; text-align: center;color: #fff;display: inline-block;text-transform: uppercase;font-weight: 600;padding: 12px 30px;border-radius: 0;transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-ms-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;}
+        .go-home{ background: #60d929;border: 2px solid transparent;}
+        .go-home:hover{ background: transparent;border: 2px solid #fff;color: #fff;}
+        .go-contact{border: 2px solid #fff;}
+        .go-contact:hover{background: #0097dc;border: 2px solid transparent;color: #fff;}
+        .footer-main{position: absolute;left: 0;right: 0;bottom: 0;}
+        
+        @media (max-width: 767px){
+            .err-404 img{width: 300px;}
+            .err-404 h1{font-size: 25px;}
+            .home-contact-btn li{margin-right: 0; margin-bottom: 15px;}
+        }
+        @media (max-width: 575px){
+            .err-404 h1 {font-size: 20px;}
+        }
+    </style>
+</head>
+<!--container-fluid-->
+    <body class="" style="">
+        <div class="page-bg top">
+            <section class="page-content tbl">
+                <div class="tbl-cl">
+                    <div class="container container-404" id="content">
+                        <div class="col-md-12 text-center">
+                            <div class="err-404">
+                                <img src="http://jkinfoweb.com/images/404-image.png" width="500" alt="" />    
+                                <h1 class="text-404">The page can not be found</h1>
+                            </div>
+                            <ul class="home-contact-btn">
+                                <li><a href="http://www.jkinfoweb.com/" class="li-button go-home"> Go back to home </a></li>
+                                <li><a href="http://jkinfoweb.com/contact-us.php" class="li-button go-contact"> Contact Us </a></li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page-bg bottom"></div>
+        <!--<footer class="footer-main">
+            <img src="shipsea.png" alt="" />    
+        </footer>-->
+    </body>
+</html>
